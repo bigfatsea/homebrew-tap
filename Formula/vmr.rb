@@ -1,28 +1,28 @@
-# Ver 2026-07-31 17:40, by Sonnet 5
+# Ver 2026-08-04 11:19, by Gemini 3.6 Flash
 
 class Vmr < Formula
   desc "Local-first, single-binary LLM router for AI agents (byte-faithful passthrough, failover, flight-recorder audit log)"
   homepage "https://github.com/bigfatsea/vmr"
-  version "0.2"
+  version "0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bigfatsea/vmr/releases/download/v0.2/vmr_darwin_arm64.tar.gz"
-      sha256 "5fd4d5eafdc1d25d0651b2cb629cdca573bfd96f366c473704a48dcaaf10c3cc"
+      url "https://github.com/bigfatsea/vmr/releases/download/v0.3/vmr_darwin_arm64.tar.gz"
+      sha256 "d537f4f37ee63d88df5ef5c94cd74c6a63fefc44178966838c88fbf0f5fc1876"
     else
-      url "https://github.com/bigfatsea/vmr/releases/download/v0.2/vmr_darwin_amd64.tar.gz"
-      sha256 "b663094fd9faa5384e8bbfdd093f8f249575463a5e82addab4951b6b01d68699"
+      url "https://github.com/bigfatsea/vmr/releases/download/v0.3/vmr_darwin_amd64.tar.gz"
+      sha256 "b22225350ac20c63384ef19110ffab75e8d476daf6294c1fe5fc3b380f581eb0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bigfatsea/vmr/releases/download/v0.2/vmr_linux_arm64.tar.gz"
-      sha256 "83d1ced51ef7d64fc171e826dd3727b4d053e0b27ba6aba254676168bf52582f"
+      url "https://github.com/bigfatsea/vmr/releases/download/v0.3/vmr_linux_arm64.tar.gz"
+      sha256 "e08e25d976bb4413a7e83c7f7c0989bc46226eb08807a1376350f92eee02d1aa"
     else
-      url "https://github.com/bigfatsea/vmr/releases/download/v0.2/vmr_linux_amd64.tar.gz"
-      sha256 "f69de661a0aaa7b8e0935cda429731b0fbbcf7ff4e0ba2b8aede81348f690d4d"
+      url "https://github.com/bigfatsea/vmr/releases/download/v0.3/vmr_linux_amd64.tar.gz"
+      sha256 "2aff141207b12eca20da0903c3d323579066f6b39eb7c5f01e7530fcdc9024dd"
     end
   end
 
