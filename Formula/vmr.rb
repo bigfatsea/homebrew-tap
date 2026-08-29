@@ -1,4 +1,4 @@
-// Ver 2026-08-29 17:27, by gemini-3.7-flash
+# Ver 2026-08-29 17:27, by gemini-3.7-flash
 
 class Vmr < Formula
   desc "Local-first, single-binary LLM router for AI agents (byte-faithful passthrough, failover, flight-recorder audit log)"
